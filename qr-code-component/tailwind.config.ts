@@ -11,6 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        white: "var(--color-white)",
+        slate: {
+          light: "var(--color-slate-300)",
+          medium: "var(--color-slate-500)",
+          dark: "var(--color-slate-900)",
+        },
+      },
+      fontFamily: {
+        outfit: "var(--font-outfit)",
       },
     },
   },
