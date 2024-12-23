@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function QRCode() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-slate-light">
-      <div className="flex flex-col space-y-6 p-4 w-[325px] bg-white rounded-2xl">
+      <div className="flex flex-col space-y-6 p-4 w-[325px] bg-white rounded-2xl shadow-xl">
         <Image
           src="/image-qr-code.png"
           alt="QR Code"
